@@ -1,0 +1,210 @@
+Using device: cpu
+Starting with 10 Population:
+[Arch(conv=2, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=3, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=2, acc=0.0000)]
+
+
+============================================================
+Generation 1/5
+============================================================
+Evaluating architecture 1/10... [FITNESS] acc=0.5870 conv_params=5856 fc_params=4199946 penalty=1.264083 lambda=0.050000 fitness=0.523796
+Fitness: 0.5238, Accuracy: 0.5870
+Evaluating architecture 2/10... [FITNESS] acc=0.5380 conv_params=4736 fc_params=2099978 penalty=0.633309 lambda=0.050000 fitness=0.506335
+Fitness: 0.5063, Accuracy: 0.5380
+Evaluating architecture 3/10... [FITNESS] acc=0.6380 conv_params=24496 fc_params=529930 penalty=0.176126 lambda=0.050000 fitness=0.629194
+Fitness: 0.6292, Accuracy: 0.6380
+Evaluating architecture 4/10... [FITNESS] acc=0.5840 conv_params=113152 fc_params=262858 penalty=0.158064 lambda=0.050000 fitness=0.576097
+Fitness: 0.5761, Accuracy: 0.5840
+Evaluating architecture 5/10... [FITNESS] acc=0.6230 conv_params=204320 fc_params=4199946 penalty=1.403008 lambda=0.050000 fitness=0.552850
+Fitness: 0.5528, Accuracy: 0.6230
+Evaluating architecture 6/10... [FITNESS] acc=0.5130 conv_params=69808 fc_params=525002 penalty=0.206366 lambda=0.050000 fitness=0.502682
+Fitness: 0.5027, Accuracy: 0.5130
+Evaluating architecture 7/10... [FITNESS] acc=0.6850 conv_params=209936 fc_params=525002 penalty=0.304456 lambda=0.050000 fitness=0.669777
+Fitness: 0.6698, Accuracy: 0.6850
+Evaluating architecture 8/10... [FITNESS] acc=0.6520 conv_params=106128 fc_params=2099978 penalty=0.704283 lambda=0.050000 fitness=0.616786
+Fitness: 0.6168, Accuracy: 0.6520
+Evaluating architecture 9/10... [FITNESS] acc=0.5070 conv_params=2432 fc_params=525002 penalty=0.159203 lambda=0.050000 fitness=0.499040
+Fitness: 0.4990, Accuracy: 0.5070
+Evaluating architecture 10/10... [FITNESS] acc=0.5580 conv_params=37888 fc_params=16782858 penalty=5.061379 lambda=0.050000 fitness=0.304931
+Fitness: 0.3049, Accuracy: 0.5580
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=4, acc=0.6850)
+
+Best overall: Arch(conv=4, acc=0.6850)
+
+Performing roulette_wheel_selection of total population: 10 ...
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=4, acc=0.6850), Arch(conv=3, acc=0.6380), Arch(conv=3, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=4, acc=0.0000)]
+
+============================================================
+Generation 2/5
+============================================================
+Evaluating architecture 1/10... [FITNESS] acc=0.6750 conv_params=209936 fc_params=525002 penalty=0.304456 lambda=0.050000 fitness=0.659777
+Fitness: 0.6598, Accuracy: 0.6750
+Evaluating architecture 2/10... [FITNESS] acc=0.6320 conv_params=24496 fc_params=529930 penalty=0.176126 lambda=0.050000 fitness=0.623194
+Fitness: 0.6232, Accuracy: 0.6320
+Evaluating architecture 3/10... [FITNESS] acc=0.6280 conv_params=108384 fc_params=4199946 penalty=1.335853 lambda=0.050000 fitness=0.561207
+Fitness: 0.5612, Accuracy: 0.6280
+Evaluating architecture 4/10... [FITNESS] acc=0.6050 conv_params=54800 fc_params=1051402 penalty=0.353781 lambda=0.050000 fitness=0.587311
+Fitness: 0.5873, Accuracy: 0.6050
+Evaluating architecture 5/10... [FITNESS] acc=0.5130 conv_params=83520 fc_params=1049290 penalty=0.373251 lambda=0.050000 fitness=0.494337
+Fitness: 0.4943, Accuracy: 0.5130
+Evaluating architecture 6/10... [FITNESS] acc=0.6620 conv_params=662272 fc_params=525002 penalty=0.621091 lambda=0.050000 fitness=0.630945
+Fitness: 0.6309, Accuracy: 0.6620
+Evaluating architecture 7/10... [FITNESS] acc=0.5770 conv_params=52640 fc_params=525002 penalty=0.194349 lambda=0.050000 fitness=0.567283
+Fitness: 0.5673, Accuracy: 0.5770
+Evaluating architecture 8/10... [FITNESS] acc=0.6560 conv_params=215936 fc_params=4199946 penalty=1.411139 lambda=0.050000 fitness=0.585443
+Fitness: 0.5854, Accuracy: 0.6560
+Evaluating architecture 9/10... [FITNESS] acc=0.4840 conv_params=1792 fc_params=1049290 penalty=0.316041 lambda=0.050000 fitness=0.468198
+Fitness: 0.4682, Accuracy: 0.4840
+Evaluating architecture 10/10... [FITNESS] acc=0.6580 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.652453
+Fitness: 0.6525, Accuracy: 0.6580
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=4, acc=0.6750)
+
+Best overall: Arch(conv=4, acc=0.6850)
+
+Performing roulette_wheel_selection of total population: 10 ...
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=4, acc=0.6750), Arch(conv=4, acc=0.6580), Arch(conv=1, acc=0.4840), Arch(conv=4, acc=0.6750), Arch(conv=4, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=4, acc=0.0000)]
+
+============================================================
+Generation 3/5
+============================================================
+Evaluating architecture 1/10... [FITNESS] acc=0.6540 conv_params=209936 fc_params=525002 penalty=0.304456 lambda=0.050000 fitness=0.638777
+Fitness: 0.6388, Accuracy: 0.6540
+Evaluating architecture 2/10... [FITNESS] acc=0.6670 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.661453
+Fitness: 0.6615, Accuracy: 0.6670
+Evaluating architecture 3/10... [FITNESS] acc=0.5020 conv_params=1792 fc_params=1049290 penalty=0.316041 lambda=0.050000 fitness=0.486198
+Fitness: 0.4862, Accuracy: 0.5020
+Evaluating architecture 4/10... [FITNESS] acc=0.6320 conv_params=209936 fc_params=525002 penalty=0.304456 lambda=0.050000 fitness=0.616777
+Fitness: 0.6168, Accuracy: 0.6320
+Evaluating architecture 5/10... [FITNESS] acc=0.5870 conv_params=662272 fc_params=525002 penalty=0.621091 lambda=0.050000 fitness=0.555945
+Fitness: 0.5559, Accuracy: 0.5870
+Evaluating architecture 6/10... [FITNESS] acc=0.4990 conv_params=1792 fc_params=1049290 penalty=0.316041 lambda=0.050000 fitness=0.483198
+Fitness: 0.4832, Accuracy: 0.4990
+Evaluating architecture 7/10... [FITNESS] acc=0.6540 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.648453
+Fitness: 0.6485, Accuracy: 0.6540
+Evaluating architecture 8/10... [FITNESS] acc=0.6630 conv_params=226320 fc_params=525002 penalty=0.315925 lambda=0.050000 fitness=0.647204
+Fitness: 0.6472, Accuracy: 0.6630
+Evaluating architecture 9/10... [FITNESS] acc=0.5520 conv_params=104960 fc_params=2097866 penalty=0.702832 lambda=0.050000 fitness=0.516858
+Fitness: 0.5169, Accuracy: 0.5520
+Evaluating architecture 10/10... [FITNESS] acc=0.6510 conv_params=565008 fc_params=2099978 penalty=1.025499 lambda=0.050000 fitness=0.599725
+Fitness: 0.5997, Accuracy: 0.6510
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=4, acc=0.6670)
+
+Best overall: Arch(conv=4, acc=0.6850)
+
+Performing roulette_wheel_selection of total population: 10 ...
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=4, acc=0.6670), Arch(conv=4, acc=0.6540), Arch(conv=4, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=4, acc=0.0000)]
+
+============================================================
+Generation 4/5
+============================================================
+Evaluating architecture 1/10... [FITNESS] acc=0.6120 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.606453
+Fitness: 0.6065, Accuracy: 0.6120
+Evaluating architecture 2/10... [FITNESS] acc=0.6490 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.643453
+Fitness: 0.6435, Accuracy: 0.6490
+Evaluating architecture 3/10... [FITNESS] acc=0.6620 conv_params=209936 fc_params=1049994 penalty=0.461953 lambda=0.050000 fitness=0.638902
+Fitness: 0.6389, Accuracy: 0.6620
+Evaluating architecture 4/10... [FITNESS] acc=0.2120 conv_params=104960 fc_params=2097866 penalty=0.702832 lambda=0.050000 fitness=0.176858
+Fitness: 0.1769, Accuracy: 0.2120
+Evaluating architecture 5/10... [FITNESS] acc=0.5080 conv_params=1792 fc_params=1049290 penalty=0.316041 lambda=0.050000 fitness=0.492198
+Fitness: 0.4922, Accuracy: 0.5080
+Evaluating architecture 6/10... [FITNESS] acc=0.5270 conv_params=1216 fc_params=262858 penalty=0.079709 lambda=0.050000 fitness=0.523015
+Fitness: 0.5230, Accuracy: 0.5270
+Evaluating architecture 7/10... [FITNESS] acc=0.6560 conv_params=205776 fc_params=525002 penalty=0.301544 lambda=0.050000 fitness=0.640923
+Fitness: 0.6409, Accuracy: 0.6560
+Evaluating architecture 8/10... [FITNESS] acc=0.4710 conv_params=104960 fc_params=2097866 penalty=0.702832 lambda=0.050000 fitness=0.435858
+Fitness: 0.4359, Accuracy: 0.4710
+Evaluating architecture 9/10... [FITNESS] acc=0.1120 conv_params=104960 fc_params=2097866 penalty=0.702832 lambda=0.050000 fitness=0.076858
+Fitness: 0.0769, Accuracy: 0.1120
+Evaluating architecture 10/10... [FITNESS] acc=0.6850 conv_params=209936 fc_params=525002 penalty=0.304456 lambda=0.050000 fitness=0.669777
+Fitness: 0.6698, Accuracy: 0.6850
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=4, acc=0.6850)
+
+Best overall: Arch(conv=4, acc=0.6850)
+
+Performing roulette_wheel_selection of total population: 10 ...
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=4, acc=0.6850), Arch(conv=4, acc=0.6490), Arch(conv=4, acc=0.0000), Arch(conv=4, acc=0.6850), Arch(conv=4, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=1, acc=0.0000)]
+
+============================================================
+Generation 5/5
+============================================================
+Evaluating architecture 1/10... [FITNESS] acc=0.6520 conv_params=209936 fc_params=525002 penalty=0.304456 lambda=0.050000 fitness=0.636777
+Fitness: 0.6368, Accuracy: 0.6520
+Evaluating architecture 2/10... [FITNESS] acc=0.6210 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.615453
+Fitness: 0.6155, Accuracy: 0.6210
+Evaluating architecture 3/10... [FITNESS] acc=0.6250 conv_params=53184 fc_params=66250 penalty=0.057104 lambda=0.050000 fitness=0.622145
+Fitness: 0.6221, Accuracy: 0.6250
+Evaluating architecture 4/10... [FITNESS] acc=0.6430 conv_params=209936 fc_params=525002 penalty=0.304456 lambda=0.050000 fitness=0.627777
+Fitness: 0.6278, Accuracy: 0.6430
+Evaluating architecture 5/10... [FITNESS] acc=0.6330 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.627453
+Fitness: 0.6275, Accuracy: 0.6330
+Evaluating architecture 6/10... [FITNESS] acc=0.6270 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.621453
+Fitness: 0.6215, Accuracy: 0.6270
+Evaluating architecture 7/10... [FITNESS] acc=0.6250 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.619453
+Fitness: 0.6195, Accuracy: 0.6250
+Evaluating architecture 8/10... [FITNESS] acc=0.6270 conv_params=130080 fc_params=66250 penalty=0.110931 lambda=0.050000 fitness=0.621453
+Fitness: 0.6215, Accuracy: 0.6270
+Evaluating architecture 9/10... [FITNESS] acc=0.6320 conv_params=113824 fc_params=525002 penalty=0.237177 lambda=0.050000 fitness=0.620141
+Fitness: 0.6201, Accuracy: 0.6320
+Evaluating architecture 10/10... [FITNESS] acc=0.5130 conv_params=2432 fc_params=525002 penalty=0.159203 lambda=0.050000 fitness=0.505040
+Fitness: 0.5050, Accuracy: 0.5130
+
+Sorting population in terms of fitness score (high -> low) ...
+Best in generation: Arch(conv=4, acc=0.6520)
+
+Best overall: Arch(conv=4, acc=0.6850)
+
+Performing roulette_wheel_selection of total population: 10 ...
+Performing Crossover & Mutation ...
+Elitism: Keeping top 2 architectures in next generation.
+Next Generation: [Arch(conv=4, acc=0.6520), Arch(conv=4, acc=0.6430), Arch(conv=4, acc=0.0000), Arch(conv=2, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=4, acc=0.0000), Arch(conv=1, acc=0.0000), Arch(conv=1, acc=0.0000)]
+
+============================================================
+FINAL BEST ARCHITECTURE
+============================================================
+Genes: {'num_conv': 4, 'conv_configs': [{'filters': 64, 'kernel_size': 3}, {'filters': 16, 'kernel_size': 3}, {'filters': 128, 'kernel_size': 5}, {'filters': 128, 'kernel_size': 3}], 'pool_type': 'avg', 'activation': 'relu', 'fc_units': 64}
+Accuracy: 0.6850
+Fitness: 0.6698
+
+Total parameters: 735,610
+
+Model architecture:
+CNN(
+  (features): Sequential(
+    (0): Conv2d(3, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (2): ReLU(inplace=True)
+    (3): Conv2d(64, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (4): BatchNorm2d(16, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (5): ReLU(inplace=True)
+    (6): AvgPool2d(kernel_size=2, stride=2, padding=0)
+    (7): Conv2d(16, 128, kernel_size=(5, 5), stride=(1, 1), padding=(2, 2))
+    (8): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (9): ReLU(inplace=True)
+    (10): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
+    (11): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (12): ReLU(inplace=True)
+    (13): AvgPool2d(kernel_size=2, stride=2, padding=0)
+  )
+  (classifier): Sequential(
+    (0): Flatten(start_dim=1, end_dim=-1)
+    (1): Linear(in_features=8192, out_features=64, bias=True)
+    (2): ReLU(inplace=True)
+    (3): Dropout(p=0.5, inplace=False)
+    (4): Linear(in_features=64, out_features=10, bias=True)
+  )
+)

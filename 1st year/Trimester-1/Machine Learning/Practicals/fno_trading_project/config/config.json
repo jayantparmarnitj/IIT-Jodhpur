@@ -1,0 +1,21 @@
+{
+  "broker": {
+    "name": "ZERODHA",
+    "api_key": "<API_KEY>",
+    "api_secret": "<API_SECRET>",
+    "access_token": "<ACCESS_TOKEN>"
+  },
+  "account": {
+    "capital": 500000,
+    "risk_per_trade": 0.02
+  },
+  "trading": {
+    "nifty_lot_size": 50,
+    "default_rr": 3.0,
+    "sl_buffer": 0.1
+  },
+  "mcp": {
+    "host": "0.0.0.0",
+    "port": 4333
+  }
+}

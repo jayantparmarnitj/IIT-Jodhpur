@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pandas
+numpy
+requests
+pydantic
+python-dotenv
+loguru
+aiohttp

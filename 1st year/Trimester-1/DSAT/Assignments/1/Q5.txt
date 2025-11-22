@@ -1,0 +1,93 @@
+No, the resulting red-black tree is **not always** the same as the initial red-black tree.
+
+### Justification
+
+The reason lies in the **fix-up procedures** for insertion and deletion. While the operations are designed to restore the red-black tree properties, they are not mathematical inverses of each other.
+
+1.  **Insertion:** A new node $X$ is always inserted as **red**. If this insertion creates a **red-red violation** (i.e., its parent is also red), the insertion fix-up procedure is triggered. This fix-up can involve **rotations** and **recolorings** that alter the structure and colors of the tree, potentially involving the new node's parent, grandparent, and uncle.
+
+2.  **Deletion:** When the *same* node $X$ is immediately deleted, the deletion procedure is applied.
+
+      * If the node $X$ is still **red** after the insertion fix-up (or if no fix-up was needed), its deletion is simple and requires no further fix-up.
+      * However, the insertion fix-up *might have changed the tree structure* (due to rotations) before the deletion occurs.
+
+The structural changes made by the insertion fix-up are not necessarily reversed by the (often trivial) deletion of the newly added node.
+
+-----
+
+### Counterexample
+
+Let's walk through a case where the final tree is different from the initial one.
+
+**1. Initial Tree**
+
+Consider the following valid red-black tree. (NIL leaves are omitted for clarity).
+
+```
+    2(B)
+   /
+  1(R)
+```
+
+  * **Root:** 2 (Black)
+  * **Node 1:** 1 (Red)
+  * This tree satisfies all RBT properties.
+
+**2. Insert Node (0)**
+
+  * We insert `0` as a **red** node, which becomes the left child of `1`.
+
+<!-- end list -->
+
+```
+    2(B)
+   /
+  1(R)
+ /
+0(R)  <-- VIOLATION!
+```
+
+  * This creates a **red-red violation** (node `0` and its parent `1` are both red).
+
+  * The **insertion fix-up** procedure is triggered (this is Case 3: the uncle is black (NIL)).
+
+    1.  Recolor parent `1` to **black**.
+    2.  Recolor grandparent `2` to **red**.
+    3.  Perform a **right rotation** on the grandparent `2`.
+
+  * **Tree After Insertion and Fix-up:** The tree is now:
+
+<!-- end list -->
+
+```
+    1(B)
+   /  \
+  0(R) 2(R)
+```
+
+  * This is a valid red-black tree.
+
+**3. Delete Node (0)**
+
+  * Now, we delete the node we just inserted, `0`.
+
+  * Node `0` is **red**.
+
+  * Deleting a red node **does not violate any red-black properties** and requires no fix-up procedure. We simply remove it.
+
+  * **Final Tree:**
+
+<!-- end list -->
+
+```
+    1(B)
+      \
+       2(R)
+```
+
+**4. Comparison**
+
+  * **Initial Tree:** Root `2(B)` with left child `1(R)`.
+  * **Final Tree:** Root `1(B)` with right child `2(R)`.
+
+The final tree is structurally different from the initial tree, even though they contain the same set of keys (1 and 2). Therefore, inserting and then immediately deleting a node does not always result in the original tree.
