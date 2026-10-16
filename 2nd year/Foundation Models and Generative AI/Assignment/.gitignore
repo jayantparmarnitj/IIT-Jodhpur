@@ -1,0 +1,29 @@
+# Local testing files and utilities
+.local_testing/
+
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Data
+data/
+outputs/
+# Output checkpoints (keep only final results)
+outputs/Run_A/checkpoint_*/
+outputs/Run_B/checkpoint_*/
+
+# System files
+.DS_Store
+*.log
