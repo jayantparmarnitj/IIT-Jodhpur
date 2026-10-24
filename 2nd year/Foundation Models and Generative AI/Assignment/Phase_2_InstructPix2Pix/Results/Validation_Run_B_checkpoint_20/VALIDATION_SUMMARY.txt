@@ -1,0 +1,16 @@
+
+CHECKPOINT VALIDATION SUMMARY
+=============================
+Checkpoint: checkpoint_20 (Run_B)
+Test Set Size: 104 images
+Device: mps
+Timestamp: 2026-10-23 18:18:14.541707
+
+Generated Samples: 10
+Output Directory: Phase_2_InstructPix2Pix/Results/Validation_Run_B_checkpoint_20
+
+Next Steps:
+1. Review generated images in Phase_2_InstructPix2Pix/Results/Validation_Run_B_checkpoint_20
+2. Compare label inputs with generated outputs
+3. Assess visual quality and semantic correctness
+4. Once full training completes, compare all checkpoints
